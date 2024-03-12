@@ -3,6 +3,7 @@
 
 #include <stdio.h> //wczytanie biblio z inputem i outputem
 #include "cwiczenia2.h"
+#include "cwiczenia3.h"
 
 void cw1_zadanie1(){printf("Hello world\n");}
 
@@ -50,9 +51,9 @@ void cw1_zadanie5(){
     
 }
 
-void cw1_zadanie6(){
+/*void cw1_zadanie6(){
     char imie[20] = "";
-    char plec_wybor = "";
+    char plec_wybor;
     int wiek = 0;
     float wzrost = 0;
     int plec_typ = 0, wzrost_typ = 0;
@@ -76,11 +77,11 @@ void cw1_zadanie6(){
     printf("mam na imie %s, jestem %s, mam %d lat, %f cm wzrostu i przez to jestem %s", imie ,plec[plec_typ], wiek, wzrost, kat_wzrost[wzrost_typ] );
 
 }
-
+*/
 
 int main()
 {
-    cw2_zadanie1();
+    suma_i_srednia_podzielnych_przez_3_lub_5();
     return 0;
 }
 
