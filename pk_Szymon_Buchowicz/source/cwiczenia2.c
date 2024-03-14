@@ -1,4 +1,6 @@
-#include <stdio.h> //wczytanie biblio z inputem i outputem
+#include <stdio.h> 
+#include <stdlib.h>
+#include <time.h>
 
 //Szymon Buchowicz
 
@@ -54,6 +56,7 @@ void cw2_zadanie4()
         printf("%f %c %f = %f", a, znak, b, a*b);
         break;
     case '/':
+        if(b == 0){printf("Nie dzieli sie przez 0"); break;}
         printf("%f %c %f = %f", a, znak, b, a/b);
         break;
     default:
@@ -69,14 +72,13 @@ int cw2_zadanie5()
     if(scanf("%d", &n)<1 || n<0)
     { printf("niepoprawne dane");}
     float tab[n];
-    float suma = 0, min = 0, max= 0;
     if(n == 0){printf("Wybrales n = 0, wiec min, max, srednia i suma tez sa rowne 0 ;)\n");return 0;}
     printf("podawaj kolejne liczby calkowite do tablicy: \n");
     printf("podaj 1 liczbe: ");
     if(scanf("%f", &tab[0])<1){printf("podales zla dana");}
-    suma += tab[0];
-    min = tab[0];
-    max = tab[0];
+    float suma = tab[0];
+    float min = tab[0];
+    float max = tab[0];
     for(int i= 1; i< n; i++){
         printf("podaj %d liczbe: ", i+1);
         if(scanf("%f", &tab[i])<1)
@@ -89,12 +91,63 @@ int cw2_zadanie5()
 
 }
 
-
 void cw2_zadanie6()
+{
+    srand((unsigned)time(0));
+    int zgadywana = rand() % (100+1);
+    int kupon = 0;
+    int zgadnieta = 0;
+    printf("Zgadnij liczbe od 0 do 100\n");
+    while (zgadnieta == 0)
+    {
+        printf("podaj liczbe: ");
+        if(scanf("%d", &kupon)<1){printf("podales zla dana");}
+        if(kupon == zgadywana){printf("zgadles\n"); break;}
+        if(kupon > zgadywana){printf("twoja liczba jest mniejsza\n");}
+        if(kupon < zgadywana){printf("twoja liczba jest wieksza\n");}
 
+
+    }
+    
+}
+
+void cw2_zadanie7()
+{
+    printf("podaj slowo i litere do znalezienia w tym slowie\n");
+    char slowo[20] = "", litera;
+    if(scanf("%s %c", &slowo, &litera)<2){printf("podales zla dana");}
+
+    for(int i = 0; i<20; i++){        
+        if(litera == slowo[i]){printf("podana litera po raz pierwszy wystepuje na pozycji nr: %d\n", i+1); break;}
+    }
+
+
+}
+
+void pracadomowa(){
+    int n;
+    printf("podaj liczbe calkowita n\n");
+    if(scanf("%d", &n)<1 || n<0)
+    { printf("niepoprawne dane");}
+    float tab[n];
+    srand((unsigned)time(0));
+    if(n == 0){printf("Wybrales n = 0, wiec min, max, srednia i suma tez sa rowne 0 ;)\n");}
+    printf("podawaj kolejne liczby calkowite do tablicy: \n");
+    tab[0] = (rand() % (100+1)) -50;
+    float suma = tab[0];
+    float min = tab[0];
+    float max = tab[0];
+    for(int i= 1; i< n; i++){
+        tab[i] = (rand() % (100+1)) -50;       
+        suma += tab[i];
+        if(min > tab[i]){min = tab[i];}
+        if(max < tab[i]){max = tab[i];}
+    }
+    printf("min: %f max: %f sum: %f avg: %f", min, max, suma, suma/n);
+}
 
 int main()
 {
-    cw2_zadanie5();
+    pracadomowa();
     return 0;
 }
