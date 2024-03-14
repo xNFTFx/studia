@@ -65,14 +65,14 @@ void cw2_zadanie4()
     }
 }
 
-int cw2_zadanie5()
+void cw2_zadanie5()
 {
     int n;
     printf("podaj liczbe calkowita n\n");
     if(scanf("%d", &n)<1 || n<0)
     { printf("niepoprawne dane");}
     float tab[n];
-    if(n == 0){printf("Wybrales n = 0, wiec min, max, srednia i suma tez sa rowne 0 ;)\n");return 0;}
+    if(n == 0){printf("Wybrales n = 0, wiec min, max, srednia i suma tez sa rowne 0 ;)\n");}
     printf("podawaj kolejne liczby calkowite do tablicy: \n");
     printf("podaj 1 liczbe: ");
     if(scanf("%f", &tab[0])<1){printf("podales zla dana");}
@@ -132,18 +132,20 @@ void pracadomowa(){
     float tab[n];
     srand((unsigned)time(0));
     if(n == 0){printf("Wybrales n = 0, wiec min, max, srednia i suma tez sa rowne 0 ;)\n");}
-    printf("podawaj kolejne liczby calkowite do tablicy: \n");
-    tab[0] = (rand() % (100+1)) -50;
-    float suma = tab[0];
-    float min = tab[0];
-    float max = tab[0];
-    for(int i= 1; i< n; i++){
-        tab[i] = (rand() % (100+1)) -50;       
-        suma += tab[i];
-        if(min > tab[i]){min = tab[i];}
-        if(max < tab[i]){max = tab[i];}
+    float suma = 0;
+    float min = 50;
+    float max = 0;
+    int licznik = 0;
+    for(int i= 0; i< n; i++){
+        tab[i] = (rand() % (100+1)) -50;
+        if(tab[i] > 0){       
+            suma += tab[i];
+            licznik+=1;
+            if(min > tab[i]){min = tab[i];}
+            if(max < tab[i]){max = tab[i];}
+        }
     }
-    printf("min: %f max: %f sum: %f avg: %f", min, max, suma, suma/n);
+    printf("min: %f max: %f sum: %f avg: %f", min, max, suma, suma/licznik);
 }
 
 int main()

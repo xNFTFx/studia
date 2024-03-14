@@ -2,14 +2,14 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/source/output/cwiczenia2'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cw2_zadanie1, symObjAddr: 0x0, symBinAddr: 0x100002E60, symSize: 0x124 }
-  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _cw2_zadanie1, symObjAddr: 0x0, symBinAddr: 0x100002E60, symSize: 0x124 }
-  - { offsetInCU: 0x7A, offset: 0x7A, size: 0x8, addend: 0x0, symName: _cw2_zadanie2, symObjAddr: 0x124, symBinAddr: 0x100002F84, symSize: 0x128 }
-  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: _cw2_zadanie3, symObjAddr: 0x24C, symBinAddr: 0x1000030AC, symSize: 0xD8 }
-  - { offsetInCU: 0xDE, offset: 0xDE, size: 0x8, addend: 0x0, symName: _cw2_zadanie4, symObjAddr: 0x324, symBinAddr: 0x100003184, symSize: 0x204 }
-  - { offsetInCU: 0x11E, offset: 0x11E, size: 0x8, addend: 0x0, symName: _cw2_zadanie5, symObjAddr: 0x540, symBinAddr: 0x1000033A0, symSize: 0x324 }
-  - { offsetInCU: 0x1A7, offset: 0x1A7, size: 0x8, addend: 0x0, symName: _cw2_zadanie6, symObjAddr: 0x864, symBinAddr: 0x1000036C4, symSize: 0x128 }
-  - { offsetInCU: 0x1E7, offset: 0x1E7, size: 0x8, addend: 0x0, symName: _cw2_zadanie7, symObjAddr: 0x98C, symBinAddr: 0x1000037EC, symSize: 0x118 }
-  - { offsetInCU: 0x235, offset: 0x235, size: 0x8, addend: 0x0, symName: _pracadomowa, symObjAddr: 0xAA4, symBinAddr: 0x100003904, symSize: 0x2A0 }
-  - { offsetInCU: 0x2BA, offset: 0x2BA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xD44, symBinAddr: 0x100003BA4, symSize: 0x2C }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cw2_zadanie1, symObjAddr: 0x0, symBinAddr: 0x100002E7C, symSize: 0x124 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _cw2_zadanie1, symObjAddr: 0x0, symBinAddr: 0x100002E7C, symSize: 0x124 }
+  - { offsetInCU: 0x7A, offset: 0x7A, size: 0x8, addend: 0x0, symName: _cw2_zadanie2, symObjAddr: 0x124, symBinAddr: 0x100002FA0, symSize: 0x128 }
+  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: _cw2_zadanie3, symObjAddr: 0x24C, symBinAddr: 0x1000030C8, symSize: 0xD8 }
+  - { offsetInCU: 0xDE, offset: 0xDE, size: 0x8, addend: 0x0, symName: _cw2_zadanie4, symObjAddr: 0x324, symBinAddr: 0x1000031A0, symSize: 0x204 }
+  - { offsetInCU: 0x11E, offset: 0x11E, size: 0x8, addend: 0x0, symName: _cw2_zadanie5, symObjAddr: 0x540, symBinAddr: 0x1000033BC, symSize: 0x30C }
+  - { offsetInCU: 0x1A3, offset: 0x1A3, size: 0x8, addend: 0x0, symName: _cw2_zadanie6, symObjAddr: 0x84C, symBinAddr: 0x1000036C8, symSize: 0x128 }
+  - { offsetInCU: 0x1E3, offset: 0x1E3, size: 0x8, addend: 0x0, symName: _cw2_zadanie7, symObjAddr: 0x974, symBinAddr: 0x1000037F0, symSize: 0x118 }
+  - { offsetInCU: 0x231, offset: 0x231, size: 0x8, addend: 0x0, symName: _pracadomowa, symObjAddr: 0xA8C, symBinAddr: 0x100003908, symSize: 0x29C }
+  - { offsetInCU: 0x2C4, offset: 0x2C4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xD28, symBinAddr: 0x100003BA4, symSize: 0x2C }
 ...
