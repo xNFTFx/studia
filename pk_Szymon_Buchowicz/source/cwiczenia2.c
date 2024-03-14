@@ -1,5 +1,6 @@
 #include <stdio.h> //wczytanie biblio z inputem i outputem
 
+//Szymon Buchowicz
 
 void cw2_zadanie1(){
     int a, b;
@@ -22,7 +23,16 @@ void cw2_zadanie2()
     { printf("niepoprawne dane");}
     if(a+b < c || b+c < a || a+c < b){printf("nie da sie stworzyc trojkata");}
     else{printf("da sie zbudowac taki trojkat\n");}
+}
 
+void cw2_zadanie3(){
+    float wzorst;
+    printf("podaj swoj wzrost\n");
+    scanf("%f", &wzorst);
+    if(wzorst <160){printf("jestes niski %f\n", wzorst);}
+    else if (wzorst <= 180){printf("jestes sredni %f\n", wzorst);}
+    else {printf("jestes wysoki %f\n", wzorst);}
+    
 }
 
 void cw2_zadanie4()
@@ -52,29 +62,35 @@ void cw2_zadanie4()
     }
 }
 
-void cw2_zadanie5()
+int cw2_zadanie5()
 {
     int n;
     printf("podaj liczbe calkowita n\n");
     if(scanf("%d", &n)<1 || n<0)
     { printf("niepoprawne dane");}
-    int tab[n];
-    int suma = 0, min = NULL, max= NULL;
+    float tab[n];
+    float suma = 0, min = 0, max= 0;
+    if(n == 0){printf("Wybrales n = 0, wiec min, max, srednia i suma tez sa rowne 0 ;)\n");return 0;}
     printf("podawaj kolejne liczby calkowite do tablicy: \n");
-    for(int i= 0; i< n; i++){
+    printf("podaj 1 liczbe: ");
+    if(scanf("%f", &tab[0])<1){printf("podales zla dana");}
+    suma += tab[0];
+    min = tab[0];
+    max = tab[0];
+    for(int i= 1; i< n; i++){
         printf("podaj %d liczbe: ", i+1);
-        if(scanf("%d", &tab[i])<1)
+        if(scanf("%f", &tab[i])<1)
         { printf("podales zla dana"); break;}
         suma += tab[i];
         if(min > tab[i]){min = tab[i];}
         if(max < tab[i]){max = tab[i];}
-
-        printf("%d", min);
-
     }
-
+    printf("min: %f max: %f sum: %f avg: %f", min, max, suma, suma/n);
 
 }
+
+
+void cw2_zadanie6()
 
 
 int main()
