@@ -1,13 +1,12 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     "/Users/szymonbuchowicz/Documents/Programowanie_komputerów/pk_Szymon_Buchowicz/source/output/main"
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/output/main'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cw1_zadanie1, symObjAddr: 0x0, symBinAddr: 0x100003840, symSize: 0x1C }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _cw1_zadanie1, symObjAddr: 0x0, symBinAddr: 0x100003840, symSize: 0x1C }
-  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _cw1_zadanie2, symObjAddr: 0x1C, symBinAddr: 0x10000385C, symSize: 0xB4 }
-  - { offsetInCU: 0x96, offset: 0x96, size: 0x8, addend: 0x0, symName: _cw1_zadanie3, symObjAddr: 0xD0, symBinAddr: 0x100003910, symSize: 0x9C }
-  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: _cw1_zadanie4, symObjAddr: 0x16C, symBinAddr: 0x1000039AC, symSize: 0xDC }
-  - { offsetInCU: 0x108, offset: 0x108, size: 0x8, addend: 0x0, symName: _cw1_zadanie5, symObjAddr: 0x248, symBinAddr: 0x100003A88, symSize: 0xD8 }
-  - { offsetInCU: 0x12C, offset: 0x12C, size: 0x8, addend: 0x0, symName: _cw1_zadanie6, symObjAddr: 0x320, symBinAddr: 0x100003B60, symSize: 0x210 }
-  - { offsetInCU: 0x1B8, offset: 0x1B8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x530, symBinAddr: 0x100003D70, symSize: 0x2C }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cw1_zadanie1, symObjAddr: 0x0, symBinAddr: 0x100003B24, symSize: 0x1C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _cw1_zadanie1, symObjAddr: 0x0, symBinAddr: 0x100003B24, symSize: 0x1C }
+  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _cw1_zadanie2, symObjAddr: 0x1C, symBinAddr: 0x100003B40, symSize: 0xB4 }
+  - { offsetInCU: 0x96, offset: 0x96, size: 0x8, addend: 0x0, symName: _cw1_zadanie3, symObjAddr: 0xD0, symBinAddr: 0x100003BF4, symSize: 0x9C }
+  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: _cw1_zadanie4, symObjAddr: 0x16C, symBinAddr: 0x100003C90, symSize: 0xDC }
+  - { offsetInCU: 0x108, offset: 0x108, size: 0x8, addend: 0x0, symName: _cw1_zadanie5, symObjAddr: 0x248, symBinAddr: 0x100003D6C, symSize: 0xD8 }
+  - { offsetInCU: 0x12C, offset: 0x12C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x320, symBinAddr: 0x100003E44, symSize: 0x14 }
 ...

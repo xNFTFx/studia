@@ -1,13 +1,13 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/source/output/cwiczenia3'
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/output/cwiczenia3'
 relocations:
   - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _podzielna_przez_3_lub_5, symObjAddr: 0x0, symBinAddr: 0x1000037B8, symSize: 0x70 }
   - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _podzielna_przez_3_lub_5, symObjAddr: 0x0, symBinAddr: 0x1000037B8, symSize: 0x70 }
   - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _suma_i_srednia_podzielnych_przez_3_lub_5, symObjAddr: 0x70, symBinAddr: 0x100003828, symSize: 0x17C }
-  - { offsetInCU: 0xF6, offset: 0xF6, size: 0x8, addend: 0x0, symName: _potega_2, symObjAddr: 0x1EC, symBinAddr: 0x1000039A4, symSize: 0x6C }
-  - { offsetInCU: 0x13A, offset: 0x13A, size: 0x8, addend: 0x0, symName: _test_potega_2, symObjAddr: 0x258, symBinAddr: 0x100003A10, symSize: 0x88 }
-  - { offsetInCU: 0x170, offset: 0x170, size: 0x8, addend: 0x0, symName: _montecarlo, symObjAddr: 0x2E0, symBinAddr: 0x100003A98, symSize: 0x134 }
-  - { offsetInCU: 0x1FA, offset: 0x1FA, size: 0x8, addend: 0x0, symName: _zadanie_5, symObjAddr: 0x414, symBinAddr: 0x100003BCC, symSize: 0x29C }
-  - { offsetInCU: 0x28D, offset: 0x28D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6B0, symBinAddr: 0x100003E68, symSize: 0x20 }
+  - { offsetInCU: 0xF6, offset: 0xF6, size: 0x8, addend: 0x0, symName: _potega_2, symObjAddr: 0x1EC, symBinAddr: 0x1000039A4, symSize: 0x74 }
+  - { offsetInCU: 0x12C, offset: 0x12C, size: 0x8, addend: 0x0, symName: _test_potega_2, symObjAddr: 0x260, symBinAddr: 0x100003A18, symSize: 0x84 }
+  - { offsetInCU: 0x15E, offset: 0x15E, size: 0x8, addend: 0x0, symName: _montecarlo, symObjAddr: 0x2E4, symBinAddr: 0x100003A9C, symSize: 0x130 }
+  - { offsetInCU: 0x1E4, offset: 0x1E4, size: 0x8, addend: 0x0, symName: _zadanie_5, symObjAddr: 0x414, symBinAddr: 0x100003BCC, symSize: 0x29C }
+  - { offsetInCU: 0x277, offset: 0x277, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6B0, symBinAddr: 0x100003E68, symSize: 0x20 }
 ...

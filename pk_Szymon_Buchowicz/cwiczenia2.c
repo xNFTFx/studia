@@ -115,7 +115,7 @@ void cw2_zadanie7()
 {
     printf("podaj slowo i litere do znalezienia w tym slowie\n");
     char slowo[20] = "", litera;
-    if(scanf("%s %c", &slowo, &litera)<2){printf("podales zla dana");}
+    if(scanf("%s %c", slowo, &litera)<2){printf("podales zla dana");}
 
     for(int i = 0; i<20; i++){        
         if(litera == slowo[i]){printf("podana litera po raz pierwszy wystepuje na pozycji nr: %d\n", i+1); break;}

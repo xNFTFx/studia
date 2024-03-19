@@ -35,7 +35,7 @@ void suma_i_srednia_podzielnych_przez_3_lub_5(){
 
 int potega_2(unsigned int liczba)
 {
-    int i = 1, y;
+    unsigned int i = 1;
 
     while (liczba > i)
     {
@@ -45,10 +45,11 @@ int potega_2(unsigned int liczba)
         }
 
     }
+    return 0;
     
 }
 
-int test_potega_2(){
+void test_potega_2(){
 
     for(int i = 0; i < 5000; i++){
         if (potega_2(i)==1){
@@ -57,7 +58,7 @@ int test_potega_2(){
     }
 }
 
-int montecarlo(int dokladnosc){
+void montecarlo(int dokladnosc){
     srand((unsigned)time(0));
     int promien = 1000000;
     int w_kole = 0;

@@ -81,7 +81,6 @@ void cw1_zadanie5(){
 
 int main()
 {
-    suma_i_srednia_podzielnych_przez_3_lub_5();
     return 0;
 }
 
