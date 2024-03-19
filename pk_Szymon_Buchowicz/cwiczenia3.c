@@ -95,5 +95,5 @@ void zadanie_5(){
 
 int main()
 {
-montecarlo(500000000);
+montecarlo(500000000); // u mnie na kompie w miare szybko leci ale radze uwazac ;)
 }
