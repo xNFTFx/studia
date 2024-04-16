@@ -2,12 +2,14 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/output/cwiczenia4'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _pieviete, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x80 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _pieviete, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x80 }
-  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _sqrt_of_x, symObjAddr: 0x80, symBinAddr: 0x100003C98, symSize: 0x88 }
-  - { offsetInCU: 0xC9, offset: 0xC9, size: 0x8, addend: 0x0, symName: _sumofdigits, symObjAddr: 0x108, symBinAddr: 0x100003D20, symSize: 0x60 }
-  - { offsetInCU: 0xFF, offset: 0xFF, size: 0x8, addend: 0x0, symName: _zad3a, symObjAddr: 0x168, symBinAddr: 0x100003D80, symSize: 0xDC }
-  - { offsetInCU: 0x14D, offset: 0x14D, size: 0x8, addend: 0x0, symName: _bin_to_dec, symObjAddr: 0x244, symBinAddr: 0x100003E5C, symSize: 0x7C }
-  - { offsetInCU: 0x191, offset: 0x191, size: 0x8, addend: 0x0, symName: _numbersbin111, symObjAddr: 0x2C0, symBinAddr: 0x100003ED8, symSize: 0x4 }
-  - { offsetInCU: 0x1A6, offset: 0x1A6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2C4, symBinAddr: 0x100003EDC, symSize: 0x30 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _pieviete, symObjAddr: 0x0, symBinAddr: 0x100003A38, symSize: 0x80 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _pieviete, symObjAddr: 0x0, symBinAddr: 0x100003A38, symSize: 0x80 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _sqrt_of_x, symObjAddr: 0x80, symBinAddr: 0x100003AB8, symSize: 0x88 }
+  - { offsetInCU: 0xC9, offset: 0xC9, size: 0x8, addend: 0x0, symName: _sumofdigits, symObjAddr: 0x108, symBinAddr: 0x100003B40, symSize: 0x60 }
+  - { offsetInCU: 0xFF, offset: 0xFF, size: 0x8, addend: 0x0, symName: _zad3a, symObjAddr: 0x168, symBinAddr: 0x100003BA0, symSize: 0xDC }
+  - { offsetInCU: 0x14D, offset: 0x14D, size: 0x8, addend: 0x0, symName: _numbersbin111, symObjAddr: 0x244, symBinAddr: 0x100003C7C, symSize: 0x88 }
+  - { offsetInCU: 0x171, offset: 0x171, size: 0x8, addend: 0x0, symName: _digitsqrt, symObjAddr: 0x2CC, symBinAddr: 0x100003D04, symSize: 0x70 }
+  - { offsetInCU: 0x199, offset: 0x199, size: 0x8, addend: 0x0, symName: _zdanie, symObjAddr: 0x33C, symBinAddr: 0x100003D74, symSize: 0x7C }
+  - { offsetInCU: 0x1CF, offset: 0x1CF, size: 0x8, addend: 0x0, symName: _test_zdanie, symObjAddr: 0x3B8, symBinAddr: 0x100003DF0, symSize: 0xB4 }
+  - { offsetInCU: 0x201, offset: 0x201, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x46C, symBinAddr: 0x100003EA4, symSize: 0x2C }
 ...

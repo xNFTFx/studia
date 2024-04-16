@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <math.h>
+#include <ctype.h>
+#include <string.h>
+
 
 #define EPS = 1.0e-5
 
@@ -23,7 +26,7 @@ double sqrt_of_x(double x){
         s = (s+x)/s;
         printf("%f, %f", s, x);
     }
-    
+    return s;
 }
 
 int sumofdigits(unsigned int number){
@@ -42,25 +45,52 @@ void zad3a(){
         printf("Suma cyfr liczby %d to %d\n", tab[i], sumofdigits(tab[i]));
    }
 }
-int bin_to_dec(int bin){
-    int dec = 0;
-    int q = 1;
-    while (bin> 0)
-    {
-        dec += bin%10 * q;
-        q*=2;
-        bin/=10;
-    }
-    return dec;
-    
-}
+
+
 void numbersbin111(){
-
+    int n = 1; 
+    while (n <= 5000) {
+        if ((n & (n + 1)) == 0) {
+            printf("%d \n", n);
+        }
+        n++;
+    }
 }
 
+unsigned int digitsqrt(unsigned int a) {
+    while(a > 0){
+        if(a <10){return a; break;}
+        a = sumofdigits(a);
+    }
+    return 0;
+}
+
+
+int zdanie(char* s) {
+    int count = 0;
+    while (*s) {
+        if (isupper(*s)) {
+            count++;
+        }
+        s++;
+    }
+    return count;
+}
+
+void test_zdanie() {
+    char sentence[100];
+    printf("Wpisz zdanie: ");
+    fgets(sentence, sizeof(sentence), stdin); // mozliwe ze z powodu pracy na vs code nie dzialala mi funkcja gets_s, ale z tego co szukałem w internecie najlepiej jest wtedy uzcyc fgets
+
+    if (sentence[sizeof(sentence) - 1] == '\n') {
+        sentence[sizeof(sentence) - 1] = '\0';
+    }
+
+    int result = zdanie(sentence);
+    printf("Liczba duzych liter w zdaniu: %d\n", result);
+}
 
 int main(){
-    // printf("%d", bin_to_dec(1110));
-    sqrt_of_x(15);
+    test_zdanie();
     return 0;
 }

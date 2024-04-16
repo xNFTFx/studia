@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/output/cwiczenia5'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x0, symBinAddr: 0x100003818, symSize: 0x68 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x0, symBinAddr: 0x100003818, symSize: 0x68 }
+  - { offsetInCU: 0x7A, offset: 0x7A, size: 0x8, addend: 0x0, symName: _test_swap, symObjAddr: 0x68, symBinAddr: 0x100003880, symSize: 0x94 }
+  - { offsetInCU: 0xAC, offset: 0xAC, size: 0x8, addend: 0x0, symName: _bubble_sort, symObjAddr: 0xFC, symBinAddr: 0x100003914, symSize: 0xE8 }
+  - { offsetInCU: 0x116, offset: 0x116, size: 0x8, addend: 0x0, symName: _test_bubble_sort, symObjAddr: 0x1E4, symBinAddr: 0x1000039FC, symSize: 0x138 }
+  - { offsetInCU: 0x172, offset: 0x172, size: 0x8, addend: 0x0, symName: _imie_na_litere, symObjAddr: 0x31C, symBinAddr: 0x100003B34, symSize: 0x48 }
+  - { offsetInCU: 0x1A8, offset: 0x1A8, size: 0x8, addend: 0x0, symName: _test_imie_na_litere, symObjAddr: 0x364, symBinAddr: 0x100003B7C, symSize: 0x138 }
+  - { offsetInCU: 0x204, offset: 0x204, size: 0x8, addend: 0x0, symName: _partition, symObjAddr: 0x49C, symBinAddr: 0x100003CB4, symSize: 0x120 }
+  - { offsetInCU: 0x272, offset: 0x272, size: 0x8, addend: 0x0, symName: _quicksort, symObjAddr: 0x5BC, symBinAddr: 0x100003DD4, symSize: 0x78 }
+  - { offsetInCU: 0x2CE, offset: 0x2CE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x634, symBinAddr: 0x100003E4C, symSize: 0x2C }
+...
