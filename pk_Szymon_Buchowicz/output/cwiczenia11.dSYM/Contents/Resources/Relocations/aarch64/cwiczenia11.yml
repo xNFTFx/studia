@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/output/cwiczenia11'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _decipher, symObjAddr: 0x0, symBinAddr: 0x100003980, symSize: 0x1C8 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _decipher, symObjAddr: 0x0, symBinAddr: 0x100003980, symSize: 0x1C8 }
+  - { offsetInCU: 0xB0, offset: 0xB0, size: 0x8, addend: 0x0, symName: _readmployes, symObjAddr: 0x1C8, symBinAddr: 0x100003B48, symSize: 0x2E4 }
+  - { offsetInCU: 0x139, offset: 0x139, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4AC, symBinAddr: 0x100003E2C, symSize: 0xA4 }
+...
