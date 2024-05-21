@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/output/cwiczenia9'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _f1, symObjAddr: 0x0, symBinAddr: 0x100003864, symSize: 0x1C }
+  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: _f1, symObjAddr: 0x0, symBinAddr: 0x100003864, symSize: 0x1C }
+  - { offsetInCU: 0xE2, offset: 0xE2, size: 0x8, addend: 0x0, symName: _mcarloint, symObjAddr: 0x1C, symBinAddr: 0x100003880, symSize: 0xF0 }
+  - { offsetInCU: 0x188, offset: 0x188, size: 0x8, addend: 0x0, symName: _trapezinit, symObjAddr: 0x10C, symBinAddr: 0x100003970, symSize: 0xF4 }
+  - { offsetInCU: 0x220, offset: 0x220, size: 0x8, addend: 0x0, symName: _test_integral, symObjAddr: 0x200, symBinAddr: 0x100003A64, symSize: 0x80 }
+  - { offsetInCU: 0x244, offset: 0x244, size: 0x8, addend: 0x0, symName: _cmplast_names, symObjAddr: 0x280, symBinAddr: 0x100003AE4, symSize: 0x9C }
+  - { offsetInCU: 0x297, offset: 0x297, size: 0x8, addend: 0x0, symName: _cmpfirst_names, symObjAddr: 0x31C, symBinAddr: 0x100003B80, symSize: 0x94 }
+  - { offsetInCU: 0x2EA, offset: 0x2EA, size: 0x8, addend: 0x0, symName: _print_persons, symObjAddr: 0x3B0, symBinAddr: 0x100003C14, symSize: 0xA0 }
+  - { offsetInCU: 0x338, offset: 0x338, size: 0x8, addend: 0x0, symName: _sort_persons, symObjAddr: 0x450, symBinAddr: 0x100003CB4, symSize: 0x44 }
+  - { offsetInCU: 0x36A, offset: 0x36A, size: 0x8, addend: 0x0, symName: _test_person, symObjAddr: 0x494, symBinAddr: 0x100003CF8, symSize: 0x80 }
+  - { offsetInCU: 0x39C, offset: 0x39C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x514, symBinAddr: 0x100003D78, symSize: 0x18 }
+...

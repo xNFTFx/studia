@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_podsumowanie/output/szymonBuchowicz'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000371C, symSize: 0x40 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000371C, symSize: 0x40 }
+  - { offsetInCU: 0x61, offset: 0x61, size: 0x8, addend: 0x0, symName: _zadanie01, symObjAddr: 0x40, symBinAddr: 0x10000375C, symSize: 0x180 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _zadanie1, symObjAddr: 0x1C0, symBinAddr: 0x1000038DC, symSize: 0x144 }
+  - { offsetInCU: 0x10B, offset: 0x10B, size: 0x8, addend: 0x0, symName: _zadanie2, symObjAddr: 0x304, symBinAddr: 0x100003A20, symSize: 0x174 }
+  - { offsetInCU: 0x1A0, offset: 0x1A0, size: 0x8, addend: 0x0, symName: _zadanie3, symObjAddr: 0x478, symBinAddr: 0x100003B94, symSize: 0x70 }
+  - { offsetInCU: 0x1C8, offset: 0x1C8, size: 0x8, addend: 0x0, symName: _zadanie4, symObjAddr: 0x4E8, symBinAddr: 0x100003C04, symSize: 0xF8 }
+  - { offsetInCU: 0x240, offset: 0x240, size: 0x8, addend: 0x0, symName: _zadanie5, symObjAddr: 0x5E0, symBinAddr: 0x100003CFC, symSize: 0xB4 }
+  - { offsetInCU: 0x280, offset: 0x280, size: 0x8, addend: 0x0, symName: _maxel, symObjAddr: 0x694, symBinAddr: 0x100003DB0, symSize: 0xA4 }
+...

@@ -10,6 +10,11 @@ void swap(int* x, int *y){
     *x = *x ^ *y;
 }
 
+
+int generator(){
+	
+}
+
 void simple_sort(int a[], int n) 
 {
 	for (int i = 0; i < n - 1; ++i) {

@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/kolos/output/nralbumu'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _zad2, symObjAddr: 0x0, symBinAddr: 0x100003814, symSize: 0x1B0 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _zad2, symObjAddr: 0x0, symBinAddr: 0x100003814, symSize: 0x1B0 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _zadanie3, symObjAddr: 0x1B0, symBinAddr: 0x1000039C4, symSize: 0xA4 }
+  - { offsetInCU: 0x103, offset: 0x103, size: 0x8, addend: 0x0, symName: _test_zadanie3, symObjAddr: 0x254, symBinAddr: 0x100003A68, symSize: 0x90 }
+  - { offsetInCU: 0x127, offset: 0x127, size: 0x8, addend: 0x0, symName: _zadanie_4, symObjAddr: 0x2E4, symBinAddr: 0x100003AF8, symSize: 0x24C }
+  - { offsetInCU: 0x1AA, offset: 0x1AA, size: 0x8, addend: 0x0, symName: _zadanie_5, symObjAddr: 0x530, symBinAddr: 0x100003D44, symSize: 0xB4 }
+  - { offsetInCU: 0x1F8, offset: 0x1F8, size: 0x8, addend: 0x0, symName: _test_zadanie_5, symObjAddr: 0x5E4, symBinAddr: 0x100003DF8, symSize: 0x3C }
+  - { offsetInCU: 0x21C, offset: 0x21C, size: 0x8, addend: 0x0, symName: _losowe_liczby, symObjAddr: 0x620, symBinAddr: 0x100003E34, symSize: 0x8C }
+  - { offsetInCU: 0x25C, offset: 0x25C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6AC, symBinAddr: 0x100003EC0, symSize: 0x30 }
+...

@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/kolos/output/letsgo'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _zadanie1, symObjAddr: 0x0, symBinAddr: 0x100003B74, symSize: 0xE0 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _zadanie1, symObjAddr: 0x0, symBinAddr: 0x100003B74, symSize: 0xE0 }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _zadanie3, symObjAddr: 0xE0, symBinAddr: 0x100003C54, symSize: 0x74 }
+  - { offsetInCU: 0xB7, offset: 0xB7, size: 0x8, addend: 0x0, symName: _zadanie4, symObjAddr: 0x154, symBinAddr: 0x100003CC8, symSize: 0xF8 }
+  - { offsetInCU: 0x12F, offset: 0x12F, size: 0x8, addend: 0x0, symName: _zadanie5, symObjAddr: 0x24C, symBinAddr: 0x100003DC0, symSize: 0xFC }
+  - { offsetInCU: 0x16F, offset: 0x16F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x348, symBinAddr: 0x100003EBC, symSize: 0x70 }
+...
