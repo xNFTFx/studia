@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/szymonbuchowicz/Documents/GitHub/studia/pk_Szymon_Buchowicz/output/cw12'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _create_node, symObjAddr: 0x0, symBinAddr: 0x100003C24, symSize: 0x70 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _create_node, symObjAddr: 0x0, symBinAddr: 0x100003C24, symSize: 0x70 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _insertLeft, symObjAddr: 0x70, symBinAddr: 0x100003C94, symSize: 0x38 }
+  - { offsetInCU: 0xAD, offset: 0xAD, size: 0x8, addend: 0x0, symName: _insertRight, symObjAddr: 0xA8, symBinAddr: 0x100003CCC, symSize: 0x38 }
+  - { offsetInCU: 0xE3, offset: 0xE3, size: 0x8, addend: 0x0, symName: _preorder_travelsal, symObjAddr: 0xE0, symBinAddr: 0x100003D04, symSize: 0x70 }
+  - { offsetInCU: 0x107, offset: 0x107, size: 0x8, addend: 0x0, symName: _inorder_travelsal, symObjAddr: 0x150, symBinAddr: 0x100003D74, symSize: 0x70 }
+  - { offsetInCU: 0x12B, offset: 0x12B, size: 0x8, addend: 0x0, symName: _postorder_travelsal, symObjAddr: 0x1C0, symBinAddr: 0x100003DE4, symSize: 0x70 }
+  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _test_binary_tree, symObjAddr: 0x230, symBinAddr: 0x100003E54, symSize: 0x100 }
+  - { offsetInCU: 0x18F, offset: 0x18F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x330, symBinAddr: 0x100003F54, symSize: 0x2C }
+...
